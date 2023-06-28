@@ -1,9 +1,12 @@
 {
   "IsEncrypted": true,
   "Values": {
-    "FUNCTIONS_WORKER_RUNTIME": "CfDJ8KvJ6DmYyMJCgkPKMHi9yggxobSNL+EiBudqjTbkN08MV8FPGx7WqKyJXi1vK5/3O48YnxQvGjJtBiH2gbzh8qUxrA2On+1JRf1xQeWwdKwATocSwT1CMT9SN2gtzXs0ZQ=="
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "FUNCTIONS_EXTENSION_VERSION": "~4",
+    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "DefaultEndpointsProtocol=https;AccountName=mystorageaccountci;AccountKey=TGdlsPd1JMB9JVc5PJPBKpwZGbfF2SfW6Kf+jDzVBccoG9kZLd9d47rJlGiG5wqJqNz8OD+kMzJ6+AStdJtWQQ==;EndpointSuffix=core.windows.net",
+    "WEBSITE_CONTENTSHARE": "myfunctionappci84b3",
+    "mydatabaseci": "mongodb://mycosmosdbformongodbci:WJwHqouCsyu1d3LEBeAsjTBBvHmpK83mMx3azGp0gUHO2fNH5XWgPAuSpNyC8e7rsPg632NxJoRHACDbjW2iGQ==@mycosmosdbformongodbci.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@mycosmosdbformongodbci@"
   },
   "ConnectionStrings": {},
-
-  "AzureWebJobsStorage": ""
+  "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=mystorageaccountci;AccountKey=TGdlsPd1JMB9JVc5PJPBKpwZGbfF2SfW6Kf+jDzVBccoG9kZLd9d47rJlGiG5wqJqNz8OD+kMzJ6+AStdJtWQQ==;EndpointSuffix=core.windows.net"
 }
